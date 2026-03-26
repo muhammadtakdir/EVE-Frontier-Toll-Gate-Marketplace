@@ -13,7 +13,14 @@
     "authorise-storage-unit": "tsx ts-scripts/smart_gate/authorise-storage-unit.ts",
     "issue-tribe-jump-permit": "tsx ts-scripts/smart_gate/issue-tribe-jump-permit.ts",
     "jump-with-permit": "tsx ts-scripts/smart_gate/jump-with-permit.ts",
-    "collect-corpse-bounty": "tsx ts-scripts/smart_gate/collect-corpse-bounty.ts"
+    "collect-corpse-bounty": "tsx ts-scripts/smart_gate/collect-corpse-bounty.ts",
+    "toll:configure": "tsx ts-scripts/toll_gate/configure-rules.ts",
+    "toll:authorise-gate": "tsx ts-scripts/toll_gate/authorise-gate.ts",
+    "toll:pay": "tsx ts-scripts/toll_gate/pay-toll.ts",
+    "toll:withdraw": "tsx ts-scripts/toll_gate/withdraw-fees.ts",
+    "market:create-listing": "tsx ts-scripts/toll_gate/create-listing.ts",
+    "market:buy": "tsx ts-scripts/toll_gate/buy-listing.ts",
+    "market:cancel": "tsx ts-scripts/toll_gate/cancel-listing.ts"
   },
   "dependencies": {
     "@mysten/sui": "^2.0.0",

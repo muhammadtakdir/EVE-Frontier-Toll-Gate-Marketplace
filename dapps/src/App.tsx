@@ -1,5 +1,7 @@
 import { Box, Container, Flex, Heading } from "@radix-ui/themes";
 import { WalletStatus } from "./WalletStatus";
+import { TollGate } from "./TollGate";
+import { Marketplace } from "./Marketplace";
 import { abbreviateAddress, useConnection } from "@evefrontier/dapp-kit";
 import { useCurrentAccount } from "@mysten/dapp-kit-react";
 
@@ -27,7 +29,7 @@ function App() {
         }}
       >
         <Box>
-          <Heading>EVE Frontier dApp Starter Template</Heading>
+          <Heading>EVE Frontier — Toll Gate & Marketplace</Heading>
         </Box>
 
         {/* STEP 2 — Connect/disconnect; show abbreviated address in header. */}
@@ -50,6 +52,8 @@ function App() {
           style={{ background: "var(--gray-a2)", minHeight: 500 }}
         >
           <WalletStatus />
+          <TollGate />
+          <Marketplace />
         </Container>
       </Container>
     </>

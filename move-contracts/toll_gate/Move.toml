@@ -1,0 +1,9 @@
+[package]
+name = "toll_gate"
+edition = "2024"
+
+[dependencies]
+world = { local = "../../../world-contracts/contracts/world" }
+
+[addresses]
+toll_gate = "0x0"
